@@ -4,7 +4,7 @@ name: Hello World(ハローワールド)
 tagline: タグライン
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1.0.0"
+version: "1.0.1"
 port: 4000
 description: >-
   アプリの説明をここに追加してください。
