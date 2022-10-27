@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: prettyrollcake-hello-world
+name: Hello World(ハローワールド)
+tagline: タグライン
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  アプリの説明をここに追加してください。
+
+
+  改行も可能です!
+
+developer: tanakei
+website: https://spotlight.soy/163
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  最新バージョンのアプリの新機能をここに追加してください。
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
