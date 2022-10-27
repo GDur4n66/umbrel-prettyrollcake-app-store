@@ -7,14 +7,11 @@ services:
       # The format here is: <app-id>_<docker-service-name>_1
 #      APP_HOST: sparkles-hello-world_server_1
 #      APP_PORT: 3000
-    
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+
+
   bitcoind:
     image: lncm/bitcoind:v23.0@sha256:57317c90d89156a30327fe1b8e51b836e0fd1a8ba13721eb2e75e6b35a570e26
-    command: "${APP_BITCOIN_COMMAND}"
+    command: -testnet
     restart: on-failure
     stop_grace_period: 15m30s
     volumes:
