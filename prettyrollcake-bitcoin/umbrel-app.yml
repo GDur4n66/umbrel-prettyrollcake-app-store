@@ -1,7 +1,7 @@
-manifestVersion: 1.1
-id: bitcoin
-category: development
-name: Bitcoin Node
+manifestVersion: 1
+id: prettyrollcake-bitcoin
+category: Development
+name: prettyrollcake Bitcoin Node
 version: "23.0"
 tagline: Run your personal node powered by Bitcoin Core
 description: >-
@@ -20,7 +20,7 @@ description: >-
 
 
   An official app from Umbrel.
-developer: Umbrel
+developer: tanakei
 website: https://umbrel.com
 dependencies: []
 repo: https://github.com/getumbrel/umbrel-bitcoin
