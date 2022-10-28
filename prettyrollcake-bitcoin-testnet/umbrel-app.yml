@@ -7,14 +7,15 @@ category: Development
 version: "1.0.0"
 port: 13005
 description: >-
+  テストネットのビットコインノード
   オリジナルのBitcoin Nodeからフォーク
 
 developer: tanakei
-website: https://spotlight.soy/163
+website: https://twitter.com/keitnk_jl1cy6r2
 # submitter: Umbrel
 # submission: https://github.com/getumbrel/umbrel-hello-world-app
 # repo: https://github.com/GDur4n66/umbrel-prettyrollcake-app-store/tree/master/prettyrollcake-hello-world
-# support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+support: https://twitter.com/keitnk_jl1cy6r2
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
