@@ -15,9 +15,10 @@ APP_BITCOIN_TESTNET_NETWORK="testnet"
 BITCOIN_TESTNET_ENV_FILE="${EXPORTS_APP_DIR}/.env"
 
 if [[ ! -f "${BITCOIN_TESTNET_ENV_FILE}" ]]; then
-
+echo "here 1"
 	if [[ -z ${BITCOIN_RPC_USER+x} ]] || [[ -z ${BITCOIN_RPC_PASS+x} ]] || [[ -z ${BITCOIN_RPC_AUTH+x} ]]; then
-		APP_BITCOIN_TESTNET_RPC_USER="umbrel"
+echo "here 2"
+                APP_BITCOIN_TESTNET_RPC_USER="umbrel"
 		APP_BITCOIN_TESTNET_RPC_DETAILS=$("${EXPORTS_APP_DIR}/scripts/rpcauth.py" "${APP_BITCOIN_TESTNET_RPC_USER}")
 		APP_BITCOIN_TESTNET_RPC_PASS=$(echo "$APP_BITCOIN_TESTNET_RPC_DETAILS" | tail -1)
 		APP_BITCOIN_TESTNET_RPC_AUTH=$(echo "$APP_BITCOIN_TESTNET_RPC_DETAILS" | head -2 | tail -1 | sed -e "s/^rpcauth=//")
