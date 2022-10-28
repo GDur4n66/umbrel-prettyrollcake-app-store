@@ -1,16 +1,13 @@
 manifestVersion: 1
-id: prettyrollcake-hello-world
-name: Hello World(ハローワールド)
-tagline: タグライン
+id: prettyrollcake-bitcoin-testnet
+name: Bitcoin Node(testnet) 
+tagline: テストネットのビットコインノード
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
-port: 4000
+port: 13005
 description: >-
-  アプリの説明をここに追加してください。
-
-
-  改行も可能です!
+  オリジナルのBitcoin Nodeからフォーク
 
 developer: tanakei
 website: https://spotlight.soy/163
