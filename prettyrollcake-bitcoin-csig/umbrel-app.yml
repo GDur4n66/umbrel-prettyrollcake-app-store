@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: prettyrollcake-bitcoin-csig
+name: Bitcoin Node(カスタムsignet) 
+tagline: tanakeiが立ち上げたカスタムsignetに参加するビットコインノード
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "23.0.0"
+port: 33005
+description: >-
+  tanakeiが立ち上げたカスタムsignetに参加するビットコインノード
+  オリジナルのBitcoin Nodeからフォーク
+developer: tanakei
+website: https://twitter.com/keitnk_jl1cy6r2
+support: https://twitter.com/keitnk_jl1cy6r2
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  初版だよ
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
