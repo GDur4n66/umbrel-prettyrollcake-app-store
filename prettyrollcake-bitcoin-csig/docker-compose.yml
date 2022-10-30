@@ -25,11 +25,11 @@ services:
       DEVICE_DOMAIN_NAME: "${DEVICE_DOMAIN_NAME}"
     networks:
       default:
-        ipv4_address: $APP_BITCOIN_IP
+        ipv4_address: $APP_BITCOIN_CUSTOMSIGNET_IP
 
   bitcoind:
     image: lncm/bitcoind:v23.0@sha256:57317c90d89156a30327fe1b8e51b836e0fd1a8ba13721eb2e75e6b35a570e26
-    command: "${APP_BITCOIN_COMMAND}"
+    command: "${APP_BITCOIN_CUSTOMSIGNET_COMMAND}"
     restart: on-failure
     stop_grace_period: 15m30s
     volumes:
