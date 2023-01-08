@@ -1,0 +1,2 @@
+export APP_ASTRAL_IP="10.21.101.11"
+export APP_ASTRAL_PORT="18081"

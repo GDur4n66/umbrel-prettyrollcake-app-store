@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: prettyrollcake-astral_main_1
+      APP_PORT: 8000
+      PROXY_AUTH_ADD: "false"
+
+  main:
+    image: prettyrollcake/astral:v230107@sha256:bdd14b42c236e60d72c2e0062f228b3c0e147780a52cc2badf3b5bf3bacc91f7
+    restart: on-failure
+    networks:
+      default:
+        ipv4_address: $APP_ASTRAL_IP
+

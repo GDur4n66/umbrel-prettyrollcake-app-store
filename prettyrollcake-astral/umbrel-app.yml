@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: prettyrollcake-astral
+name: astral
+tagline: Astral Nostrクライアント
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.0.0"
+port: 18088
+description: >-
+  Astral Nostrクライアント
+
+developer: tanakei
+website: https://twitter.com/keitnk_jl1cy6r2
+# submitter: Umbrel
+# submission: https://github.com/getumbrel/umbrel-hello-world-app
+# repo: https://github.com/GDur4n66/umbrel-prettyrollcake-app-store/tree/master/prettyrollcake-hello-world
+support: https://twitter.com/keitnk_jl1cy6r2
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  最新バージョンのアプリの新機能をここに追加してください。
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
