@@ -1,3 +1,0 @@
-# Astral Hidden Service
-HiddenServiceDir /data/app-$APP_ID
-HiddenServicePort 80 $APP_ASTRAL_IP:$APP_ASTRAL_PORT
