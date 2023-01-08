@@ -1,0 +1,7 @@
+SocksPort   0.0.0.0:9050
+ControlPort 0.0.0.0:9051
+
+# Nostr-rs-relay Hidden Service
+HiddenServiceDir /data/nostr-rs-relay
+HiddenServicePort 80 10.21.101.10:8080
+

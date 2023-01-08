@@ -1,0 +1,28 @@
+version: "3.7"
+
+services:
+  main:
+    image: prettyrollcake/nostr-rs-relay:v0.7.16@sha256:603dfd018dcd70092253ca24e026d9b08689d54b8f35c05a738715ff2264ac9a
+    restart: on-failure
+    ports:
+      - "${APP_NOSTR_RS_RELAY_PORT}:8080"
+    volumes:
+      - ${APP_DATA_DIR}/data/relay/db:/usr/src/app/db
+      - ${APP_DATA_DIR}/data/relay/config.toml:/usr/src/app/config.toml
+    networks:
+      default:
+        ipv4_address: $APP_NOSTR_RS_RELAY_IP
+
+  tor:
+    image: getumbrel/tor:0.4.7.8@sha256:2ace83f22501f58857fa9b403009f595137fa2e7986c4fda79d82a8119072b6a
+    user: "1000:1000"
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/tor/torrc:/etc/tor/torrc:ro
+      - ${APP_DATA_DIR}/data/tor/data:/data
+    environment:
+      HOME: "/tmp"
+    networks:
+      default:
+        ipv4_address: $APP_NOSTR_RS_RELAY_TOR_PROXY_IP
+
