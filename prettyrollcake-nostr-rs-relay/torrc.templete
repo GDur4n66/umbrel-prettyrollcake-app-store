@@ -1,3 +1,0 @@
-# lnbits Hidden Service
-HiddenServiceDir /data/app-nostr-rs-relay
-HiddenServicePort 80 $APP_NOSTR_RS_RELAY_IP:$APP_NOSTR_RS_RELAY_PORT
